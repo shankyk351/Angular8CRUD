@@ -8,7 +8,7 @@ import { staticArr } from './../constants/constant';
 })
 export class AppComponent {
   title = 'CRUD App';
-  model = {};
+  model = {name: '', mobile: null, email: '', id: null};
   arr = staticArr;
   formCreateTitle  = 'Create User';
   formUpdateTitle  = 'Update User';
